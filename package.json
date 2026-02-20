@@ -1,21 +1,16 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
-  "description": "",
+  "description": "COMP2156 Lab06 GitHub Pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+    "test": "echo \"Warning: No tests created yet.\"",
+    "build": "mkdir -p build && echo \"Deployed via GitHub Pages\" > build/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adderql/COMP2156.git"
+    "url": "https://github.com/Adderql/COMP2156.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Adderql/COMP2156/issues"
-  },
-  "homepage": "https://github.com/Adderql/COMP2156#readme"
+  "author": "David Awele",
+  "license": "ISC"
 }
